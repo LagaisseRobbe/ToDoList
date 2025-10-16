@@ -1,7 +1,3 @@
-docker stop Todolist 
-
-docker rm Todolist 
-
 node {
     stage('Preparation') {
         catchError(buildResult: 'SUCCESS') {
